@@ -1,0 +1,38 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    animation: move 5s infinite alternate;
+    background-color: rgba(0, 0, 0, 0.7); /* Make the card background slightly dark */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #ffffff; /* Ensure the title stands out */
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #cccccc; /* Ensure the text stands out */
+  }
+  
+  @keyframes move {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
+  }
+  

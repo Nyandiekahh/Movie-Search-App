@@ -1,0 +1,48 @@
+.app {
+  background: linear-gradient(to bottom, rgba(28, 28, 28, 0.9), rgba(56, 56, 56, 0.9)), url('https://e0.pxfuel.com/wallpapers/559/84/desktop-wallpaper-movie-theater-background-movie-cinema.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffffff; /* Ensure the title stands out */
+}
+
+.form-inline .form-control {
+  width: 300px;
+}
+
+.form-inline {
+  margin-bottom: 30px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
